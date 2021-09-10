@@ -7,9 +7,8 @@ function login()
   //if(usuario == "admininicial" && password == "admin123456")
   if(usuario == "ale" && password == "123")
   {
+	window.location="../JSP/menu.jsp";
 	alert("Bienvenido al sistema, "+usuario); 
-    window.location="menu.jsp";
-   	
   }
   else
   {
