@@ -4,8 +4,7 @@ function login()
   var usuario = document.getElementById("txtusuario").value;
   var password = document.getElementById("txtpassword").value;
 
-  //if(usuario == "admininicial" && password == "admin123456")
-  if(usuario == "ale" && password == "123")
+  if(usuario == "admininicial" && password == "admin123456")
   {
 	window.location="../JSP/menu.jsp";
 	alert("Bienvenido al sistema, "+usuario); 
