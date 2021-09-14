@@ -4,13 +4,13 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Distribuidora Nameless</title>
+		<title>Nameless Liquor Store</title>
 		<link rel="stylesheet" type="text/css" href="../CSS/estilo.css">
 		<link href="https://fonts.googleapis.com/css2?family=Anton&family=Ubuntu&display=swap" rel="stylesheet">
 	</head>
 	<body>
 		<header>
-				<img class= "header" src="../IMG/titulo.png" alt="Distribuidora Nameless">
+				<img class= "header" src="../IMG/titulo.png" alt="Nameless Liquor Store">
 		</header>
 		<ul class="menu">
 			<li><a href="usuarios.jsp">Usuarios</a></li>
@@ -28,22 +28,22 @@
 			<center>
 		      <table border = "0">
 		        <tr><td><label>Cedula </label></td>
-							  <td><input type="text"  value="" maxlength="20" name="txtcedula" size ="50" placeholder="Digite la cedula"></td>
+							  <td><input type="text" maxlength="20" id="txtCedula" name="txtCedula" size ="50" placeholder="Digite la cedula"></td>
 
 								<td><label>Usuario </label></td>
-								<td><input type="text" name="txtusuario" value="" maxlength="50" size ="50" placeholder="Digite el usuario"></td>
+								<td><input type="text" id="txtUsuario" name="txtUsuario" maxlength="50" size ="50" placeholder="Digite el usuario"></td>
 						</tr>
 						<tr>
 								<td><label>Nombre Completo </label></td>
-								<td><input type="text" name="txtnombre" value="" maxlength="50" size ="50" placeholder="Digite el nombre"></td>
+								<td><input type="text" id="txtNombre" name="txtNombre" maxlength="50" size ="50" placeholder="Digite el nombre"></td>
 
 		            <td><label>Contraseña </label></td>
-								<td><input type="password" name="txtpassword" value="" maxlength="50" size ="50" id="txtpassword" placeholder="Digite la contraseña"></td>
+								<td><input type="password" id="txtPassword" name="txtPassword"  maxlength="50" size ="50"  placeholder="Digite la contraseña"></td>
 						</tr>
 		        <tr>
 							<td><label>Correo Electrónico </label></td>
-							<td><input type="email"  value="" maxlength="50" name="txtcorreo" size ="50" placeholder="Digite el correo electrónico"></td>
-							<td></td><td><input type="checkbox" onclick="verpassword()" class="checkbox"><label>Mostrar Contraseña</label></td>
+							<td><input type="email" maxlength="50" id="txtCorreo" name="txtCorreo" size ="50" placeholder="Digite el correo electrónico"></td>
+							<td></td><td><input type="checkbox" onclick="verPassword()" class="checkbox"><label>Mostrar Contraseña</label></td>
 						</tr>
 		    </table>
 			</center>
@@ -58,7 +58,7 @@
 		</div>
 		</form>
 		<footer>
-				<img class="footer" src="../IMG/footer.png" alt="Distribuidora Nameless">
+				<img class="footer" src="../IMG/footer.png" alt="Nameless Liquor Store">
 		</footer>
 	</body>
 <script type="text/javascript" src="../JS/funciones.js"></script>

@@ -1,13 +1,15 @@
 function login()
 {
 
-  var usuario = document.getElementById("txtusuario").value;
-  var password = document.getElementById("txtpassword").value;
+  var usuario = document.getElementById("txtUsuario").value;
+  var password = document.getElementById("txtPassword").value;
 
-  if(usuario == "admininicial" && password == "admin123456")
+  //if(usuario == "admininicial" && password == "admin123456")
+  if(usuario == "1" && password == "1")
   {
-	window.location="../JSP/menu.jsp";
-	alert("Bienvenido al sistema, "+usuario); 
+	window.location="menu.jsp";
+	alert("Bienvenido al sistema " + usuario);
+    
   }
   else
   {
@@ -15,9 +17,9 @@ function login()
   }
 }
 
-function verpassword()
+function verPassword()
 {
-    var tipo = document.getElementById("txtpassword");
+    var tipo = document.getElementById("txtPassword");
     if(tipo.type == "password")
     {
         tipo.type = "text";

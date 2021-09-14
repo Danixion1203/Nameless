@@ -4,13 +4,13 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Distribuidora Nameless</title>
+		<title>Nameless Liquor Store</title>
 		<link href="https://fonts.googleapis.com/css2?family=Anton&family=Ubuntu&display=swap" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="../CSS/estilo.css">
 	</head>
 	<body>
 		<header>
-				<img class= "header" src="../IMG/titulo.png" alt="Distribuidora Nameless">
+				<img class= "header" src="../IMG/titulo.png" alt="Nameless Liquor Store">
 		</header>
 		<ul class="menu">
 			<li><a href="usuarios.jsp">Usuarios</a></li>
@@ -24,7 +24,7 @@
 		<form class="formulario">
 			<br>
 			<div>
-				<h2>Bienvenido al Sistema de Facturación de la Distribuidora Nameless</h3>
+				<h2>Bienvenido al Sistema de Facturación de Nameless Liquor Store</h3>
 							<center>
 						<label>En el sistema usted podrá realizar las siguientes tareas.</label>
 						<br><br>
@@ -58,7 +58,7 @@
 
 		</form>
 	<footer>
-			<img class="footer" src="../IMG/footer.png" alt="Distribuidora Nameless">
+			<img class="footer" src="../IMG/footer.png" alt="Nameless Liquor Store">
 	</footer>
 	</body>
 </html>
