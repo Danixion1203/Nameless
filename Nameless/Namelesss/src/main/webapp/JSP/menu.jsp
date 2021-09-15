@@ -24,9 +24,9 @@
 		<form class="formulario">
 			<br>
 			<div>
-				<h2>Bienvenido al Sistema de FacturaciÛn de Nameless Liquor Store</h3>
+				<h2>Bienvenido al Sistema de Facturaci√≥n de Nameless Liquor Store</h3>
 							<center>
-						<label>En el sistema usted podr· realizar las siguientes tareas.</label>
+						<label>En el sistema usted podr√° realizar las siguientes tareas.</label>
 						<br><br>
 					<table class="tablaMenu" font-color=white>
 						<tr>
@@ -34,14 +34,14 @@
 						</tr>
 
 						<tr>
-							<td><label>clientes</label></td><td><label>Permite ingresar, eliminar, modificar y consultar los clientes de la Distribuidora.</label></td>
+							<td><label>Clientes</label></td><td><label>Permite ingresar, eliminar, modificar y consultar los clientes de la Distribuidora.</label></td>
 						</tr>
 
 						<tr>
 							<td><label>Proveedores</label></td><td><label>Permite ingresar, eliminar, modificar y consular los proveedores con los que trabaja la Distribuidora.</label></td>
 						</tr>
 						<tr>
-							<td><label>Productos</label></td><td><label>Permite cargar archivos con la informaciÛn de los productos que se tienen en la Distribuidora.</label></td>
+							<td><label>Productos</label></td><td><label>Permite cargar archivos con la informaci√≥n de los productos que se tienen en la Distribuidora.</label></td>
 						</tr>
 						<tr>
 							<td><label>Ventas</label></td><td><label>Permite realizar la venta de productos a los clientes de la Distribuidora.</label></td>
@@ -50,7 +50,7 @@
 							<td><label>Reportes</label></td><td><label>Permite ver diferentes reportes relacionados con las actividades de la Distribuidora.</label></td>
 						</tr>
 						<tr>
-							<td><label>Salir</label></td><td><label>Permite salir del sistema de facturaciÛn de la Distribuidora.</label></td>
+							<td><label>Salir</label></td><td><label>Permite salir del sistema de facturaci√≥n de la Distribuidora.</label></td>
 						</tr>
 					</table>
 
